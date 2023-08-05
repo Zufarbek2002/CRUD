@@ -82,7 +82,7 @@ todoGet.addEventListener('submit', (e) => {
                 }
             
             });
-            todoList2.innerHTML += `New result`;
+            todoList2.innerHTML += `<br> New result`;
         })
         .catch((err) => {console.log(err);})
     }
