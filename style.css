@@ -3,6 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+#get{
+    display: flex;
+    padding: 20px 30px;
+    background-color: rgba(255, 79, 79, 0.386);
+    justify-content: center;
+}
+input{
+    padding: 15px;
+    border: 1px solid blue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(249, 231, 208);
+}
+button{
+    width: 90px;
+    font-size: 18px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    border: 1px solid ;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
 .box{
     display: flex;
     flex-direction: column;
@@ -11,8 +39,8 @@
     margin: 0 auto;
 }
 .box1{
-    background-color: blue;
+    /* background-color: blue; */
     margin: 10px 0;
     font-size: 18px;
-    color: #fff;
+    /* color: #fff; */
 }
