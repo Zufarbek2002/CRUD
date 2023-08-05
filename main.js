@@ -44,6 +44,7 @@ todoGet.addEventListener('submit', (e) => {
                     }
                 }
             });
+            todoList1.innerHTML += `New result`;
         })
         .catch((err) => {console.log(err);})
     }
@@ -81,7 +82,7 @@ todoGet.addEventListener('submit', (e) => {
                 }
             
             });
-                
+            todoList2.innerHTML += `New result`;
         })
         .catch((err) => {console.log(err);})
     }
@@ -117,7 +118,7 @@ todoGet.addEventListener('submit', (e) => {
                         </div></div>`;
                 }
             });
-                
+            todoList3.innerHTML += `New result`;
         })
         .catch((err) => {console.log(err);})
     }
@@ -154,12 +155,11 @@ todoGet.addEventListener('submit', (e) => {
                 }
                 
             });
-                
+            todoList4.innerHTML += `New result`;
         })
         .catch((err) => {console.log(err);})
     }
         
     getId(); 
-
 
 })
