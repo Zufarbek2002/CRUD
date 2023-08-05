@@ -27,11 +27,20 @@ todoGet.addEventListener('submit', (e) => {
             data2.forEach(data => {
                 for (let j = b; j <= a; j++) {
                     if (data.id == j) {
-                        todoList1.innerHTML += ` 1-TASK
-                        userId: ${data.userId}
-                        id: ${data.id}
-                        title: ${data.title} ||  
-                        completed: ${data.completed} <br>`;                    
+                        todoList1.innerHTML += `
+                        <div class="single_box">
+                        <div class="user_id">
+                            userId: ${data.userId}
+                        </div>
+                        <div class="user_id">
+                            id: ${data.id}
+                        </div>
+                        <div class="user_id">
+                            title: ${data.title}
+                        </div>
+                        <div class="user_id">
+                            completed: ${data.completed}
+                        </div></div>`;                    
                     }
                 }
             });
@@ -55,11 +64,20 @@ todoGet.addEventListener('submit', (e) => {
             let data2 = data;
             data2.forEach(data => {
                 if (data.completed.toString() == todoText.toLowerCase()) {
-                    todoList2.innerHTML += `2-TASK
-                    userId: ${data.userId} ||
-                    id: ${data.id} || 
-                    title: ${data.title} ||  
-                    completed: ${data.completed} <br>`;
+                    todoList2.innerHTML += `
+                    <div class="single_box">
+                        <div class="user_id">
+                            userId: ${data.userId}
+                        </div>
+                        <div class="user_id">
+                            id: ${data.id}
+                        </div>
+                        <div class="user_id">
+                            title: ${data.title}
+                        </div>
+                        <div class="user_id">
+                            completed: ${data.completed}
+                        </div></div>`;
                 }
             
             });
@@ -83,11 +101,20 @@ todoGet.addEventListener('submit', (e) => {
             let data2 = data;
             data2.forEach(data => {
                 if (data.userId == todoText) {
-                    todoList3.innerHTML += ` 3-TASK
-                    userId: ${data.userId} ||
-                    id: ${data.id} || 
-                    title: ${data.title} ||  
-                    completed: ${data.completed} <br>`;
+                    todoList3.innerHTML += `
+                    <div class="single_box">
+                        <div class="user_id">
+                            userId: ${data.userId}
+                        </div>
+                        <div class="user_id">
+                            id: ${data.id}
+                        </div>
+                        <div class="user_id">
+                            title: ${data.title}
+                        </div>
+                        <div class="user_id">
+                            completed: ${data.completed}
+                        </div></div>`;
                 }
             });
                 
@@ -110,11 +137,20 @@ todoGet.addEventListener('submit', (e) => {
             let data2 = data;
             data2.forEach(data => {
                 if (data.id == todoText) {
-                    todoList4.innerHTML += `4-TASK
-                    userId: ${data.userId} ||
-                    id: ${data.id} || 
-                    title: ${data.title} ||  
-                    completed: ${data.completed} <br>`;
+                    todoList4.innerHTML += `
+                    <div class="single_box">
+                        <div class="user_id">
+                            userId: ${data.userId}
+                        </div>
+                        <div class="user_id">
+                            id: ${data.id}
+                        </div>
+                        <div class="user_id">
+                            title: ${data.title}
+                        </div>
+                        <div class="user_id">
+                            completed: ${data.completed}
+                        </div></div>`;
                 }
                 
             });
